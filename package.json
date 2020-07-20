@@ -1,0 +1,42 @@
+{
+  "name": "patrones",
+  "version": "1.0.0",
+  "description": "Este repositorio fue creado para estudiar cada uno de los patrones de diseño.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build",
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lpenaloza/patrones.git"
+  },
+  "keywords": [],
+  "author": "Luis Alfredo Peñaloza Guette",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lpenaloza/patrones/issues"
+  },
+  "homepage": "https://github.com/lpenaloza/patrones#readme",
+  "dependencies": {
+    "-": "0.0.1",
+    "browser-sync": "^2.26.10",
+    "browserify": "^16.5.1",
+    "gulp": "^4.0.2",
+    "gulp-connect": "^5.7.0",
+    "gulp-copy": "^4.0.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "gulp-watch": "^5.0.1",
+    "path": "^0.12.7",
+    "save-dev": "0.0.1-security",
+    "through2": "^4.0.2",
+    "tsd": "^0.13.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.9.7"
+  }
+}
